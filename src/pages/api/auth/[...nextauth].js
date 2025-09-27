@@ -6,7 +6,7 @@ import GithubProvider from "next-auth/providers/github"
 import GoogleProvider from "next-auth/providers/google"
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcrypt";            // 비밀번호 암호화용
-import { connectDB } from "@/Utils/db";
+import { connectDB } from "@/utils/db";
 
 // 구글로그인 OAuth
 // 깃허브로그인 OAuth
