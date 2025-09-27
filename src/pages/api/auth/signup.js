@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt'
-import { connectDB } from '@/Utils/db'
+import { connectDB } from '@/utils/db'
 
 
 const dbName = process.env.DB_NAME || "kbook_backend";
